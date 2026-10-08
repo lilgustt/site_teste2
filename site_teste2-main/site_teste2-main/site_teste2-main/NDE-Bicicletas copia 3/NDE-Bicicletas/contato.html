@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato - NDE Bicicletas</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="contato.css">
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <div class="marca">
+
+            <img 
+                src="WhatsApp Image 2026-09-25 at 08.25.12.jpeg"
+                alt="Logo NDE Bicicletas"
+                class="logo"
+            >
+
+            <div class="nome-marca">
+
+                <h1>NDE</h1>
+                <span>BICICLETAS</span>
+
+            </div>
+
+        </div>
+
+        <nav>
+
+            <a href="index.html">Início</a>
+            <a href="index.html#bicicletas">Bicicletas</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- CONTEÚDO -->
+    <main>
+
+        <section class="contato-header">
+
+            <h2>Entre em contato</h2>
+
+            <p>
+                Fale com a NDE Bicicletas e tire suas dúvidas.
+            </p>
+
+        </section>
+
+
+        <section class="contato-area container">
+
+            <div class="row g-4">
+
+
+                <!-- FORMULÁRIO -->
+                <section class="col-md-6">
+
+                    <div class="contato-card">
+
+                        <h3>Envie uma mensagem</h3>
+
+                        <p class="descricao">
+                            Preencha o formulário abaixo para entrar em contato conosco.
+                        </p>
+
+
+                        <form id="formulario">
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Nome
+                                </label>
+
+                                <input 
+                                    type="text"
+                                    id="nome"
+                                    class="form-control"
+                                    placeholder="Digite seu nome"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    E-mail
+                                </label>
+
+                                <input 
+                                    type="email"
+                                    id="email"
+                                    class="form-control"
+                                    placeholder="Digite seu e-mail"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Telefone
+                                </label>
+
+                                <input 
+                                    type="tel"
+                                    id="telefone"
+                                    class="form-control"
+                                    placeholder="(00) 00000-0000"
+                                >
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Mensagem
+                                </label>
+
+                                <textarea 
+                                    id="mensagem"
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Digite sua mensagem..."
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+                            <button 
+                                type="submit"
+                                class="btn btn-primary botao-enviar"
+                            >
+                                Enviar mensagem
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </section>
+
+
+                <!-- INFORMAÇÕES -->
+                <section class="col-md-6">
+
+                    <div class="contato-card">
+
+                        <h3>Onde estamos</h3>
+
+
+                        <div class="informacao">
+
+                            <strong>Telefone</strong>
+
+                            <p>
+                                (41) 99999-9999
+                            </p>
+
+                        </div>
+
+
+                        <div class="informacao">
+
+                            <strong>E-mail</strong>
+
+                            <p>
+                                contato@ndebicicletas.com
+                            </p>
+
+                        </div>
+
+
+                        <div class="informacao">
+
+                            <strong>Horário</strong>
+
+                            <p>
+                                Segunda a sexta, das 8h às 18h
+                            </p>
+
+                        </div>
+
+
+                        <!-- MAPA -->
+                        <div class="mapa">
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.729029371353!2d-49.1801008!3d-25.5140821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf0eba3a204e5%3A0x3cf70865ccc5cb51!2sOLIKLAY%20BIKES!5e0!3m2!1spt-BR!2sbr!4v1790334927592!5m2!1spt-BR!2sbr"
+                                width="100%"
+                                height="300"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="strict-origin-when-cross-origin">
+                            </iframe>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            NDE Bicicletas © 2026
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
