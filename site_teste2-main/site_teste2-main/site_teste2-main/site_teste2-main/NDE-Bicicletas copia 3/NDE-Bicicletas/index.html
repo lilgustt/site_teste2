@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NDE Bicicletas</title>
+
+    <!--Favicon do site-->
+    <link rel="shortcut icon" href="WhatsApp Image 2026-09-25 at 08.25.12.jpeg" type="image/x-icon">
+    
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <div class="marca">
+
+            <img 
+                src="WhatsApp Image 2026-09-25 at 08.25.12.jpeg"
+                alt="Logo NDE Bicicletas"
+                class="logo"
+            >
+
+            <div class="nome-marca">
+
+                <h1>NDE</h1>
+                <span>BICICLETAS</span>
+
+            </div>
+
+        </div>
+
+        <nav>
+
+            <a href="#inicio">Início</a>
+            <a href="#bicicletas">Bicicletas</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section id="inicio" class="text-center p-5">
+
+            <h2>Encontre sua Bicicleta</h2>
+
+            <p>Qualidade e confiança em cada pedalada</p>
+
+            <div class="input-group mb-4 pesquisa-container">
+
+                <input 
+                    type="text" 
+                    id="pesquisa" 
+                    class="form-control" 
+                    placeholder="Pesquisar bicicleta..."
+                >
+
+                <button class="btn btn-dark" type="button">
+                    Pesquisar
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- BICICLETAS -->
+        <section id="bicicletas" class="container py-5">
+
+            <h2 class="text-center mb-4">
+                Nossas Bicicletas
+            </h2>
+
+
+            <!-- FILTROS -->
+            <div class="text-center mb-4">
+
+                <button class="btn btn-dark filtro" data-categoria="todas">
+                    Todas
+                </button>
+
+                <button class="btn btn-outline-dark filtro" data-categoria="mtb">
+                    Mountain Bike
+                </button>
+
+                <button class="btn btn-outline-dark filtro" data-categoria="urbana">
+                    Urbanas
+                </button>
+
+                <button class="btn btn-outline-dark filtro" data-categoria="ebike">
+                    E-Bikes
+                </button>
+
+                <button class="btn btn-outline-dark filtro" data-categoria="esportiva">
+                    Esportivas
+                </button>
+
+                <button class="btn btn-outline-dark filtro" data-categoria="bmx">
+                    BMX
+                </button>
+
+            </div>
+
+
+            <!-- CARDS -->
+            <div class="row">
+
+
+                <!-- CALOI EXPLORER -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="mtb">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAAoC41wnU7lI4zhwASetVzYm6x_TjoV0KVvd8cda6fQ&s=10"
+                                alt="Caloi Explorer Sport 2026"
+                            >
+
+                            <h3 class="card-title">
+                                Caloi Explorer Sport 2026
+                            </h3>
+
+                            <p class="card-text">
+                                Conforto e controle para explorar qualquer caminho.
+                            </p>
+
+                            <a href="caloi explorer.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BICICLETA OGGI BIG WHEEL 7.2 2026 -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="esportiva">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyz7JkV9Cl497ViDUPkVp-KCP9QrV0tMsdyPULjQ9PgQ&s=10"
+                                alt="Caloi Explorer Sport 2026"
+                            >
+
+                            <h3 class="card-title">
+                                Bicicleta Oggi Big Wheel 7.2 2026
+                            </h3>
+
+                            <p class="card-text">
+                                Uma verdadeira máquina de Cross Country (XC) para nível intermediário-avançado. Traz o moderno padrão de eixos Boost (que aumenta a rigidez lateral das rodas), uma transmissão Shimano Deore de 12 marchas com engate único (1x12) e pneus Maxxis Rekon Race profissionais.
+                            </p>
+
+                            <a href="oggi bigwheels7.2.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BICICLETA MTB ARO 29 ST520 ROCKRIDER -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="mtb">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrsrxKsOWQro4tt7zZFQ3JSqorj8B6wvFF-gfHcEG6xQ&s=10"
+                                alt="Caloi Explorer Sport 2026"
+                            >
+
+                            <h3 class="card-title">
+                                Bicicleta Mtb Aro 29 St520 Rockrider - azul - P
+                            </h3>
+
+                            <p class="card-text">
+                                Modelo muito confiável equipado com transmissão Shimano Alivio de 18 velocidades (2x9), freios hidráulicos integrados Shimano MT200 e suspensão com trava remota instalada direto no guidão.
+                            </p>
+
+                            <a href="rockrider azul.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CALOI E-VIBE -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="ebike">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1RGf9kRaZc4dkC3T4FZqsbxDNXCdpLzoOwJp6izvbA&s=10"
+                                alt="Caloi E-Vibe Explorer E-bike"
+                            >
+
+                            <h3 class="card-title">
+                                Caloi E-Vibe Explorer E-bike
+                            </h3>
+
+                            <p class="card-text">
+                                Motor central de 250 W e 75 Nm para mais força nas subidas.
+                            </p>
+
+                            <a href="caloi evibe.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NAGANO DOBRÁVEL 400W -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="ebike">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGnoiFgasfnr10Dxc1qMHN_DGMkzrmREWryQBOTsATJQ&s=10"
+                                alt="Caloi E-Vibe Explorer E-bike"
+                            >
+
+                            <h3 class="card-title">
+                                Nagano Dobrável 400W
+                            </h3>
+
+                            <p class="card-text">
+                                Modelo compacto e dobrável, ideal para guardar em apartamentos
+                            </p>
+
+                            <a href="nagano dobravel.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- YOO FLEEK ARO 26 250W -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="ebike">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-e140XDPSWIrxTLxzKzUkOsLxUXPmNcWPfD-r3r-eg&s=10"
+                                alt="Caloi E-Vibe Explorer E-bike"
+                            >
+
+                            <h3 class="card-title">
+                                Yoo Fleek Aro 26 250W
+                            </h3>
+
+                            <p class="card-text">
+                                Opção urbana com câmbio Shimano de 7 marchas e assistência de pedal
+                            </p>
+
+                            <a href="yoo fleek.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- GTSM1 E-VIBE 1000W -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="ebike">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPIuiRjYaO7K1Gy-n4ozTPQ6ALAaN2lpn__1CKD7UCA&s"
+                                alt="Caloi E-Vibe Explorer E-bike"
+                            >
+
+                            <h3 class="card-title">
+                                GTSM1 e-Vibe 1000W
+                            </h3>
+
+                            <p class="card-text">
+                                Bicicleta robusta para mobilidade urbana, com velocidade de até 32 km/h e autonomia de até 35 km
+                            </p>
+
+                            <a href="gtsm1 evibe.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CALOI CITY TOUR -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="urbana">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm4AjTRYezgt_FSK2Ie7J4p9aJUAWhKWA4ocYrKAZJlsqUd2uYvQJkKUw&s=10"
+                                alt="Caloi City Tour"
+                            >
+
+                            <h3 class="card-title">
+                                Caloi City Tour
+                            </h3>
+
+                            <p class="card-text">
+                                Conforto e praticidade para encarar a rotina da cidade.
+                            </p>
+
+                            <a href="caloi city.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- OGGI -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="esportiva">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://images.tcdn.com.br/img/img_prod/1229624/bicicleta_700_oggi_velloce_disc_2026_16v_shimano_c_1_20251224095153_7258e2e67262.jpg"
+                                alt="Oggi Velloce Disc"
+                            >
+
+                            <h3 class="card-title">
+                                Oggi Velloce Disc
+                            </h3>
+
+                            <p class="card-text">
+                                Leveza e velocidade para transformar cada pedal em performance.
+                            </p>
+
+                            <a href="oggi veloce.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BICICLETA SENSE FUN COMP -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="esportiva">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3cIF5fsMS4FS4RyHT7ef-T_Y4stmkM2oDlf9OT0lvrWROR193e45IGG4M&s=10"
+                                alt="Oggi Velloce Disc"
+                            >
+
+                            <h3 class="card-title">
+                                Bicicleta Sense Fun Comp
+                            </h3>
+
+                            <p class="card-text">
+                                Ótima para quem busca agilidade e estabilidade em curvas rápidas na terra.
+                            </p>
+
+                            <a href="sense fun.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BICICLETA VELOCE -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="esportiva">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdqCL8VtmYuvc9NGFX44fgoAzqKEl5MWCghnkcxIEWFY6rgIy5lZRwYCw&s=10"
+                                alt="Oggi Velloce Disc"
+                            >
+
+                            <h3 class="card-title">
+                                Bicicleta Velloce
+                            </h3>
+
+                            <p class="card-text">
+                                Ótima para competidores e ciclistas que buscam alta performance em trilhas pesadas.
+                            </p>
+
+                            <a href="oggi veloce.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TREK MARLIN 5 -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="esportiva">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFDGI4NEV_RrpjofVcJRNJcBW6Hiyrrfwb6Pwa4bGMod0rxMbOtXX0sE&s=10"
+                                alt="Oggi Velloce Disc"
+                            >
+
+                            <h3 class="card-title">
+                                Bicicleta 29 Trek Marlin 5 TAM
+                            </h3>
+
+                            <p class="card-text">
+                                Ótima para quem planeja fazer upgrades futuros em uma bike de padrão mundial.
+                            </p>
+
+                            <a href="trek marlin 5.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MONGOOSE -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="bmx">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://m.media-amazon.com/images/I/810mYsXyo5L._AC_UF1000,1000_QL80_.jpg"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Mongoose Legion L20
+                            </h3>
+
+                            <p class="card-text">
+                                Agilidade e resistência para dominar cada manobra.
+                            </p>
+
+                            <a href="mongoose.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SUNDAY PRIMER -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="bmx">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://www.sefiles.net/images/library/zoom/sunday-primer-bmx-bike-456317-3360591-1.png"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Sunday Primer
+                            </h3>
+
+                            <p class="card-text">
+                                BMX resistente e ágil para manobras e diversão.
+                            </p>
+
+                            <a href="sunday.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRO-X SÉRIE 1 / VELO1 -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="bmx">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqf_B9sJnxscI3V3pqRgcy7iesTgZMzB445ELr0aUWHarBuz18Oka8j4Hn&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Pro-X Série 1 / Velo1
+                            </h3>
+
+                            <p class="card-text">
+                                É a porta de entrada mais popular do mercado brasileiro. Possui quadro em aço carbono resistente, freios V-Brake e geometria confortável para quem está começando.
+                            </p>
+
+                            <a href="pro x serie.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- RAVOK RV-X -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="bmx">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpfg3H4-B2xML-QhStHA44SXY5vXSbRkHAbSwFnIUEw&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Ravok RV-X 29
+                            </h3>
+
+                            <p class="card-text">
+                                Outra opção muito acessível com visual clássico do motocross, ideal para garotos que querem rodar no bairro e arriscar os primeiros saltos.
+                            </p>
+
+                            <a href="ravok.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- GTS M1 SKX BMX -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="bmx">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfKvb4rrwn6ZeM2suF50tWmGQla-lFMtIP_716rdnHIOsAK28a4X0fioc&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                GTS M1 SKX BMX
+                            </h3>
+
+                            <p class="card-text">
+                                Uma variação que faz muito sucesso por trazer freio a disco, o que não é o padrão do BMX tradicional de manobras, mas agrada muito quem busca frenagem precisa em descidas e uso urbano.
+                            </p>
+
+                            <a href="gts m1 skx.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- KINK CURB / KINK LAUNCH -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="bmx">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIe25tNb8dAx8ImBZXNu4j7pBQYQAFhnDmGV8mTUEmRXGciECtOgykPFA&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Kink Curb / Kink Launch
+                            </h3>
+
+                            <p class="card-text">
+                                A Kink é uma marca americana referência mundial. A Curb é o modelo de entrada deles, mas que já supera quase todas as nacionais em precisão, leveza e durabilidade dos rolamentos.
+                            </p>
+
+                            <a href="kink curb.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SPECIALIZED ALLEZ -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="esportiva">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzBKafdLySwgZDu67KdfK2SbHrw0SVHLbnQULjP_X83MoeQYfTDZzi6AE&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Specialized Allez
+                            </h3>
+
+                            <p class="card-text">
+                                Bicicleta esportiva para velocidade e desempenho.
+                            </p>
+
+                            <a href="specialized allez.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TREK FX 2 -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="urbana">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_1vDSo_scPz-JAJu8vRTFORgCH8XkemuktPj1cusC2dkRz7A96owdLO9-&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Trek FX 2 Disc
+                            </h3>
+
+                            <p class="card-text">
+                                Versátil para deslocamentos e passeios pela cidade.
+                            </p>
+
+                            <a href="trek fx2.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- OGGI LITE TOUR -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="urbana">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSX7O7JqZRc4HRYyBEKsBQKCckXOh-4siM0comYn-Hg&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Oggi Lite Tour
+                            </h3>
+
+                            <p class="card-text">
+                                Ótima para ciclistas urbanos que valorizam extrema leveza e um design minimalista para rodar na cidade.
+                            </p>
+
+                            <a href="oggi lite tour.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- GTS M1 URBAN -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="urbana">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAReZicIn7I5vyNosnf_m_ULeW-NXteXIdx0kuGYPFfrySbKsaTdT1SIrQ&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                GTS M1 Urban
+                            </h3>
+
+                            <p class="card-text">
+                                Ótima para quem procura um modelo econômico e estiloso para passeios de fim de semana na praia ou parques.
+                            </p>
+
+                            <a href="gts m1 urban.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NIRVE CLASSIC -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="urbana">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://www.nirve.com/images/9623-b-classic-main%20copy373x226.jpg?crc=202440533"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Nirve Classic
+                            </h3>
+
+                            <p class="card-text">
+                                Ótima para os amantes do estilo retrô e caiçara que priorizam o design clássico em passeios descompromissados.
+                            </p>
+
+                            <a href="nirve classic.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SPECIALIZED TURBO -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="ebike">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ZpGA3OhyjF57NTttFk6gvEPRKRUOyYkUkvHlWJ9DlA&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Specialized Turbo Tero 3.0
+                            </h3>
+
+                            <p class="card-text">
+                                E-bike para aventuras, trilhas e deslocamentos.
+                            </p>
+
+                            <a href="specialized turbo.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TREK POWERFLY -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="ebike">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB2c0rHifloFkzmMCUPiZ1Uegd6m-WBid1tf0W8oKoUA&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Trek Powerfly 4
+                            </h3>
+
+                            <p class="card-text">
+                                E-bike elétrica preparada para trilhas e terrenos variados.
+                            </p>
+
+                            <a href="trek powefly.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SCOTT -->
+                <article class="col-md-4 mb-4 bicicleta" data-categoria="ebike">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <img 
+                                class="img-fluid"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXQ5Jm_Zxq8ROfbNsKAiaA5xbv8TEOhzBodRGimVdSVQ&s=10"
+                                alt="Mongoose Legion L20"
+                            >
+
+                            <h3 class="card-title">
+                                Scott Aspect eRIDE 930
+                            </h3>
+
+                            <p class="card-text">
+                                E-bike com estilo MTB para encarar diferentes terrenos.
+                            </p>
+
+                            <a href="scott.html" class="btn btn-primary mt-auto">
+                                Ver Detalhes
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="bg-dark text-white text-center p-4">
+
+        <p>© 2026 NDE Bicicletas</p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
